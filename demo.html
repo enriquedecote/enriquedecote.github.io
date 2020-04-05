@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>ArcGIS JavaScript Tutorials: Create a JavaScript starter app</title>
+        <style>
+         html, body, #viewDiv {
+             padding: 0;
+             margin: 0;
+             height: 100%;
+             width: 100%;
+         }
+        </style>
+        <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css">
+        <script src="https://js.arcgis.com/4.14/"></script>
+        <script>
+         require([
+             "esri/Map",
+             "esri/views/MapView",
+             "esri/layers/FeatureLayer",
+             "esri/widgets/Search"
+         ], function(Map, MapView,FeatureLayer, Search) {
+
+             var map = new Map({
+                 basemap: "topo-vector"
+             });
+
+             var view = new MapView({
+                 container: "viewDiv",
+                 map: map,
+                 center: [0.11289,52.1741], // longitude, latitude; Cambridge, UK
+                 zoom: 13
+             });
+             // household income http://data-communities.opendata.arcgis.com/datasets/household-income/geoservice
+             var householdIncome = new FeatureLayer({
+                 url: "https://services3.arcgis.com/ivmBBrHfQfDnDf8Q/arcgis/rest/services/Household_Income/FeatureServer/0",
+                 outFields: ["*"], // Return all fields so it can be queried client-side
+                 popupTemplate: {  // Enable a popup
+                     title: "{TRL_NAME}", // Show attribute value
+                                   content: "The trail elevation gain is {ELEV_GAIN} ft."  // Display in pop-up
+                 }
+             });
+             map.add(householdIncome, 0);
+
+             // index deprivation
+             var indexDeprivation = new FeatureLayer({
+                 url: "https://services.arcgis.com/XSeYKQzfXnEgju9o/arcgis/rest/services/IMD2015_7Domains/FeatureServer/0"
+             });
+             map.add(indexDeprivation, 0);
+             
+             // Search widget
+             var search = new Search({
+                 view: view
+             });
+             view.ui.add(search, "top-right");
+             view.on("click", function(evt){
+                 search.clear();
+                 view.popup.clear();
+                 if (search.activeSource) {
+                     var geocoder = search.activeSource.locator; // World geocode service
+                     var params = {
+                         location: evt.mapPoint
+                     };
+                     geocoder.locationToAddress(params)
+                             .then(function(response) { // Show the address found
+                                 var address = response.address;
+                                 showPopup(address, evt.mapPoint);
+                             }, function(err) { // Show no address found
+                                 showPopup("No address found.", evt.mapPoint);
+                             });
+                 }
+                 
+                 // Create SQL expressions
+                 var sqlExpressions = ["TRL_ID = 0", "TRL_ID > 0",  "USE_BIKE = 'Yes'", "USE_BIKE = 'No'", "ELEV_GAIN < 1000", "ELEV_GAIN > 1000", "TRL_NAME = 'California Coastal Trail'"];
+
+                 var selectFilter = document.createElement("select");
+                 selectFilter.setAttribute("class", "esri-widget esri-select");
+                 selectFilter.setAttribute("style", "width: 275px; font-family: Avenir Next W00; font-size: 1em;");
+
+                 sqlExpressions.forEach(function(sql){
+                     var option = document.createElement("option");
+                     option.value = sql;
+                     option.innerHTML = sql;
+                     selectFilter.appendChild(option);
+                 });
+
+                 view.ui.add(selectFilter, "top-right");
+             });
+
+             function showPopup(address, pt) {
+                 view.popup.open({
+                     title:  + Math.round(pt.longitude * 100000)/100000 + "," + Math.round(pt.latitude * 100000)/100000,
+                     content: address,
+                     location: pt
+                 });
+             }
+             
+             // Apply a client-side filter
+             function setFeatureLayerViewFilter(expression) {
+                 view.whenLayerView(featureLayer).then(function(featureLayerView) {
+                     featureLayerView.filter = {
+                         where: expression
+                     };
+                 });
+             }
+             
+             selectFilter.addEventListener('change', function (event) {
+                 // setFeatureLayerFilter(event.target.value);
+                 setFeatureLayerViewFilter(event.target.value);
+             });
+             
+         });
+        </script>
+    </head>
+    <body>
+        <div id="viewDiv"></div>
+        
+    </body>
+</html>
