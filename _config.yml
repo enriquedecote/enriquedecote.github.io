@@ -18,7 +18,7 @@ remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Enrique Munoz de Cote, PhD"
-description: "AI entrepreneur/scientist/engineer | creating the next AI venture"
+description: "AI entrepreneur/computer scientist/engineer | creating the next AI venture"
 #baseurl: "/example" # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #logo: "/images/enrique.jpg" # path of site logo, e.g. "/assets/images/logo.png"
