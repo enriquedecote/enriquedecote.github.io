@@ -1,0 +1,17 @@
+{% for venture in site.ventures %}
+
+{% if venture.URL %}
+
+<a class="flex" href="{{venture.URL}}{% if venture.Username %}/{{venture.Username}}{% endif %}" target="_blank"
+        rel="noopener noreferrer">
+        <!-- <img src={{venture.Logo}} alt="venture.Name" style="width:42px;height:42px;"> -->
+        <button id="ventures"
+                class="ventures lg:m-5 md:5 sm:3.5 text-white hover:opacity-75 font-semibold my-2.5 mx-5 px-5 py-1.5 rounded-md w-full place-content-center h-14 w-32"
+                style="{% if venture.Color %}background-color: {{venture.Color}};-webkit-box-shadow: 0px 10px 25px 0px {{venture.Color}}80;-moz-box-shadow: 0px 10px 25px 0px {{venture.Color}}80;box-shadow: 0px 10px 25px 0px {{venture.Color}}80;{% else %}color: white;-webkit-box-shadow: 0px 10px 25px 0px #ffffff80;-moz-box-shadow: 0px 10px 25px 0px #ffffff80;box-shadow: 0px 10px 25px 0px #ffffff80;background-image: url({{venture.Logo}});background-size: contain;background-repeat: no-repeat;background-position: center;{% endif %}"
+                title="{{venture.Name}}">
+        </button>
+</a>
+
+{% endif %}
+
+{% endfor %}
