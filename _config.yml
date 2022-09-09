@@ -1,71 +1,273 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# YOUR NAME OR TITLE OF YOUR SITE
+name: Enrique Munoz de Cote
 
-title: "Enrique Munoz de Cote, PhD"
-description: "AI entrepreneur/computer scientist/engineer | creating the next AI venture"
-email: enriquedecote@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: enriquedecote
-github_username:  enriquedecote
+# YOUR BRAND/PERSONAL TAGLINE
+tagline: AI entrepreneur/computer scientist/engineer | creating the next AI venture
 
-# Build settings
-#theme: jekyll-theme-so-simple
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-plugins:
-  - jekyll-feed
-mathjax:
-  enable: true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-gems:
-- jekyll-email-protect
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-footer_links:
-  - title: Twitter
-    url: https://twitter.com/enriquedecote
-    icon: fab fa-twitter-square
-#  - title: GitHub
-#    url: https://github.com/enriquedecote
-#    icon: fab fa-github-square
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/enriquedecote/
-    icon: fab fa-linkedin-in
+# YOUR/BRAND IMAGE URL
+Image_URL: /assets/images/enrique.png
+
+# CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
+Cover_Image: https://source.unsplash.com/random
+
+# SOCIAL MEDIA
+links:
+
+  # IF YOU DON'T WANT TO USE ANY OF THE FOLLOWING, JUST LEAVE THE URL BLANK
+    
+    # LINKEDIN
+  - Name: LinkedIn
+    URL: https://www.linkedin.com/in/enriquedecote/
+    Username: harsh98trivedi
+    Color: '#2867B2'
+    Icon-Class: fab fa-linkedin-in
+
+    # FACEBOOK
+  - Name: Facebook
+    URL:
+    Username: harsh98trivedi
+    Color: '#3b5998'
+    Icon-Class: fab fa-facebook
+
+    # INSTAGRAM
+  - Name: Instagram
+    URL:
+    Username: harsh98trivedi
+    Color: '#DD2A7B'
+    Icon-Class: fab fa-instagram
+
+    # TWITTER
+  - Name: Twitter
+    URL: https://twitter.com/enriquedecote
+    Username: harsh98trivedi
+    Color: '#1DA1F2'
+    Icon-Class: fab fa-twitter
+
+    # MEDIUM
+  - Name: Medium
+    URL: enriquedecote.medium.com
+    Username: 'enriquedecote'
+    Icon-Class: fab fa-medium-m
+    Color: '#00ab6c'
+    Text_Color: '#ffffff'
+
+    # CLUBHOUSE
+  - Name: Clubhouse
+    URL:
+    Username: '@harsh98trivedi'
+    Color: '#f1c40f'
+    Icon-Class: fas fa-hand-paper -mt-0.5
+    
+
+    # YOUTUBE
+  - Name: YouTube
+    URL:
+    Username: UCS3zvA_2r1iGT7MB3NVCGAw
+    Color: '#ff0000'
+    Icon-Class: fab fa-youtube
+
+    # GITHUB
+  - Name: GitHub
+    URL: https://github.com/enriquedecote
+    Username: harsh98trivedi
+    Color: '#6e5494'
+    Icon-Class: fab fa-github
+
+    # EMAIL
+  - Name: Email
+    URL: enrique@people-ai.com
+    Icon-Class: fas fa-envelope
+    Color: '#e17055'
+    Text_Color: '#ffffff'
+
+    # TWITCH
+  - Name: Twitch
+    URL:
+    Username: harsh98trivedi
+    Icon-Class: fab fa-twitch
+    Color: '#9147fe'
+    Text_Color: '#ffffff'
+
+    # VIMEO
+  - Name: Vimeo
+    URL:
+    Username: harshtrivedi
+    Icon-Class: fab fa-vimeo-v
+    Color: '#1ab7ea'
+    Text_Color: '#ffffff'
+
+    # MESSENGER
+  - Name: Messenger
+    URL:
+    Username: theharshtrivedi
+    Color: '#006AFF'
+    Icon-Class: fab fa-facebook-messenger
+
+    # REDDIT
+  - Name: Reddit
+    URL:
+    Username: harshtrivedi
+    Color: '#FF4500'
+    Icon-Class: fab fa-reddit-alien
+
+  #   # WHATSAPP
+  # - Name: WhatsApp
+  #   URL:
+  #   Username: '+1123456789'
+  #   Color: '#25d366'
+  #   Icon-Class: fab fa-whatsapp
+
+    # TELEGRAM
+  - Name: Telegram
+    URL:
+    Username: theharshtrivedi
+    Color: '#0088cc'
+    Icon-Class: fab fa-telegram-plane
+
+    # SNAPCHAT
+  - Name: Snapchat
+    URL:
+    Username: 'harsh98trivedi'
+    Color: '#FFFC00'
+    Text_Color: '#000000'
+    Icon-Class: fab fa-snapchat-ghost
+
+    # STEAM
+  - Name: Steam
+    URL:
+    Username: 'harshtrivedi'
+    Color: '#66c0f4'
+    Text_Color: '#000000'
+    Icon-Class: fab fa-steam
+
+  #   # DISCORD
+  # - Name: Discord
+  #   URL:
+  #   Username: 
+  #   Icon-Class: fab fa-discord
+  #   Color: '#5865F2'
+  #   Text_Color: '#ffffff'
+
+    # PINTEREST
+  - Name: Pinterest
+    URL:
+    Username: 'harsh98trivedi'
+    Color: '#E60023'
+    Icon-Class: fab fa-pinterest
+
+    # BEHANCE
+  - Name: Behance
+    URL:
+    Username: harsh98trivedi
+    Color: '#1769ff'
+    Icon-Class: fab fa-behance
+
+  #   # DRIBBBLE
+  # - Name: Dribbble
+  #   URL:
+  #   Username: 
+  #   Color: '#ea4c89'
+  #   Icon-Class: fab fa-dribbble
+
+    # DEVIANTART
+  - Name: DeviantArt
+    URL:
+    Username: harshtrivedi
+    Icon-Class: fab fa-deviantart
+    Color: '#05CC46'
+    Text_Color: '#ffffff'
+
+    # FIGMA
+  - Name: Figma
+    URL:
+    Username: '@harshtrivedi'
+    Icon-Class: fab fa-figma
+    Color: '#ff2865'
+    Text_Color: '#ffffff'
+
+    # SPOTIFY
+  - Name: Spotify
+    URL:
+    Username: 314ihryk3edvtusti6il3oy3x5da
+    Color: '#1DB954'
+    Icon-Class: fab fa-spotify
+
+    # SOUNDCLOUD
+  - Name: SoundCloud
+    URL:
+    Username: harsh98trivedi
+    Color: '#FE5000'
+    Icon-Class: fab fa-soundcloud
+
+  #    # TIKTOK
+  # - Name: TikTok
+  #   URL:
+  #   Username: 
+  #   Color: '#FE2C55'
+  #   Icon-Class: fab fa-tiktok
+
+
+    # DEV.TO
+  - Name: Dev.to
+    URL:
+    Username: harsh98trivedi
+    Icon-Class: fab fa-dev
+    Color: '#ffffff'
+    Text_Color: '#000000'
+
+  #   # TUMBLR
+  # - Name: Tumblr
+  #   URL:
+  #   Username: 
+  #   Color: '#35465c'
+  #   Icon-Class: fab fa-tumblr
+
+  # BUY ME A COFFEE
+  - Name: BuyMeACoffee
+    URL:
+    Username: harshtrivedi
+    Icon-Class: fas fa-mug-hot
+    Color: '#FFDD00'
+    Text_Color: '#000000'
+
+    # CUSTOM LINK
+  - Name: Deep tech consultancy
+    URL: https://people-ai.com/
+    Icon-Class: fas fa-link
+    Color: '#ffb142'
+    Text_Color: '#ffffff'
+
+  - Name: Links
+    URL:
+    Icon-Class: fas fa-link
+    Color: '#d94869'
+    Text_Color: '#ffffff'
+
+# YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
+footer: 'No'
+
+# STOP EDITING HERE ---------- YOU'VE REACHED THE END OF THE CONFIGURATION
+
+# Compress
+compress_html:
+  clippings: all
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Icon
+
+# Base URL
+# baseurl: /links
+
+# Default Markdown Engine
+markdown: kramdown
