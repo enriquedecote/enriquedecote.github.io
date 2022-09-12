@@ -17,7 +17,7 @@ links:
     
     # LINKEDIN
   - Name: LinkedIn
-    URL: https://www.linkedin.com/in/
+    URL: https://www.linkedin.com/in
     Username: enriquedecote
     Color: '#2867B2'
     Icon-Class: fab fa-linkedin-in
@@ -38,14 +38,14 @@ links:
 
     # TWITTER
   - Name: Twitter
-    URL: https://twitter.com/
+    URL: https://twitter.com
     Username: enriquedecote
     Color: '#1DA1F2'
     Icon-Class: fab fa-twitter
 
     # MEDIUM
   - Name: Medium
-    URL: https://enriquedecote.medium.com/
+    URL: https://enriquedecote.medium.com
     Username: 
     Icon-Class: fab fa-medium-m
     Color: '#00ab6c'
@@ -68,7 +68,7 @@ links:
 
     # GITHUB
   - Name: GitHub
-    URL: https://github.com/
+    URL: https://github.com
     Username: enriquedecote
     Color: '#6e5494'
     Icon-Class: fab fa-github
