@@ -75,7 +75,7 @@ links:
 
     # EMAIL
   - Name: Email
-    URL: enrique@people-ai.com
+    URL: mailto:enrique@people-ai.com
     Icon-Class: fas fa-envelope
     Color: '#e17055'
     Text_Color: '#ffffff'
