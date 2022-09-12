@@ -68,8 +68,8 @@ links:
 
     # GITHUB
   - Name: GitHub
-    URL: https://github.com/enriquedecote
-    Username: harsh98trivedi
+    URL: https://github.com/
+    Username: enriquedecote
     Color: '#6e5494'
     Icon-Class: fab fa-github
 
