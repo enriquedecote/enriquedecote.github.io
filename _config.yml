@@ -17,8 +17,8 @@ links:
     
     # LINKEDIN
   - Name: LinkedIn
-    URL: https://www.linkedin.com/in/enriquedecote/
-    Username: harsh98trivedi
+    URL: https://www.linkedin.com/in/
+    Username: enriquedecote
     Color: '#2867B2'
     Icon-Class: fab fa-linkedin-in
 
@@ -38,15 +38,15 @@ links:
 
     # TWITTER
   - Name: Twitter
-    URL: https://twitter.com/enriquedecote
-    Username: harsh98trivedi
+    URL: https://twitter.com/
+    Username: enriquedecote
     Color: '#1DA1F2'
     Icon-Class: fab fa-twitter
 
     # MEDIUM
   - Name: Medium
-    URL: enriquedecote.medium.com
-    Username: 'enriquedecote'
+    URL: https://enriquedecote.medium.com/
+    Username: 
     Icon-Class: fab fa-medium-m
     Color: '#00ab6c'
     Text_Color: '#ffffff'
