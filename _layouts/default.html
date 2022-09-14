@@ -8,6 +8,9 @@ layout: compress
 <head>
     {%include meta.html%}
     {% seo %}
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include analytics.html %}
+    {% endif %}
 </head>
 
 <body class="bg-black text-white">

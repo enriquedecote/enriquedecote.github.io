@@ -293,5 +293,7 @@ exclude:
 # Default Markdown Engine
 markdown: kramdown
 
+google_analytics: G-1ZF32FQLQM
+
 plugins:
   - jekyll-seo-tag
