@@ -133,12 +133,12 @@ links:
     Icon-Class: fab fa-snapchat-ghost
 
     # STEAM
-  - Name: Steam
-    URL:
-    Username: 'harshtrivedi'
+  - Name: Google Scholar
+    URL: https://scholar.google.com.mx/citations?user=GCvqGG4AAAAJ&hl=en
+    # Username: 'harshtrivedi'
     Color: '#66c0f4'
     Text_Color: '#000000'
-    Icon-Class: fab fa-steam
+    Icon-Class: fab fa-scholar
 
   #   # DISCORD
   # - Name: Discord

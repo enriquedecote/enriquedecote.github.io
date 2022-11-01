@@ -26,3 +26,9 @@ body .links .fa-hand-paper, html .links .fa-hand-paper { -moz-transform: scale(-
 body .links #link-content, html .links #link-content { display: flex; justify-content: center; align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
+
+.fa-scholar {
+    content: url('assets/images/google-scholar.svg');
+    height: 1em;
+    width: auto;
+  }
