@@ -11,6 +11,7 @@ layout: compress
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include analytics.html %}
     {% endif %}
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" /> -->
 </head>
 
 <body class="bg-black text-white">
@@ -36,12 +37,14 @@ layout: compress
                     {% endunless %}
                 </div>
                 <span>
-                    <p class="text-base break-words inline-flex font-normal mt-1.5 mx-auto text-center opacity-50 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center">Venture Building</p>
-                    <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 my-7">
-                        {% unless site.ventures == "" %}
-                        {% include ventures.html %}
-                        {% endunless %}
-                    </div>
+                    <h2 class="text-2xl font-semibold break-words inline-flex mt-3 mb-4 mx-auto text-center 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center">Venture Building</h2>
+                    <!-- <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 my-7"> -->
+                        <ol class="relative border-l border-gray-200 dark:border-gray-700 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full text-left centre">
+                            {% unless site.ventures == "" %}
+                            {% include ventures.html %}
+                            {% endunless %}
+                         </ol>    
+                    <!-- </div> -->
                 </span>
             </span>
             {% if site.footer and site.footer == 'Yes' or site.footer == 'yes' or site.footer == 'y' or site.footer == 'Y' %}
@@ -51,5 +54,6 @@ layout: compress
                 </div>{% endif %}
         </div>
     </div>
+    <!-- <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script> -->
 </body>
 </html>

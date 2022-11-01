@@ -27,4 +27,6 @@ body .links #link-content, html .links #link-content { display: flex; justify-co
 
 body .fa-scholar, html .fa-scholar { content: url("/assets/images/google-scholar.svg"); height: 1em; width: auto; }
 
+body .centre, html .centre { margin: auto; }
+
 /*# sourceMappingURL=main.css.map */

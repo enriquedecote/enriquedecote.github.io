@@ -241,37 +241,33 @@ links:
 ventures:
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
-    # Color: '#ffb142'
-    Text_Color: '#ffffff'
-    # Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2865936/settings_images/VJhRPJhR2GlxLeftpywl_hypergrowth_logo_full_black_transparent.png
+    Timeframe: Nov 2022
+    Description: Data-driven growth acceleration network and services connecting the tech industry (startups, scale-ups, enterprise and government) with people, processes and data. We design and implement processes based on proven frameworks. Now we're using AI and machine learning to guide these processes and leverage these technologies in key growth areas such as marketing and decision-support systems.
     Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2151226666/settings_images/jRnhPeEVTSeGsEfZie8z_hypergrowth-logo-white.svg.png
 
-  - Name: Computer vision & AI for public spaces
-    URL: https://geckomatics.com/
-    Color: '#edf2f4'
-    Text_Color: '#ffffff'
-    # Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2865936/settings_images/VJhRPJhR2GlxLeftpywl_hypergrowth_logo_full_black_transparent.png
-    Logo: /assets/images/geckomatics.png
+  # - Name: Art marketplace
+  #   URL: https://www.atelierdao.xyz/
+  #   Timeframe: July 2022 
+  #   Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  #   Logo: https://www.atelierdao.xyz/images/Atelier_logo.svg
 
   - Name: 'Blockchain and AI venture builder'
     URL: https://www.darkmatterventures.io/
-    # Icon-Class: fas fa-link
-    # Color: '#ffb142'
-    # Text_Color: '#ffffff'
+    Timeframe: Jan 2022
+    Description: Blockchain and AI venture builder. An R&D lab building products in the intersection between AI and blockchain technologies.
     Logo: /assets/images/dmv.svg
-
-  - Name: Art marketplace
-    URL: https://www.atelierdao.xyz/
-    # Icon-Class: https://www.atelierdao.xyz/images/Atelier_logo.svg
-    # Color: '#ffb142'
-    Text_Color: '#ffffff'
-    Logo: https://www.atelierdao.xyz/images/Atelier_logo.svg
   
+  - Name: Computer vision & AI for public spaces
+    URL: https://geckomatics.com/
+    Color: '#edf2f4'
+    Timeframe: July 2021 
+    Description: An AI computer vision startup founded to solve the scarcity of high quality, recent geographic information. Geckomatics has redesigned how outdoor mobile mapping is done. Using a 360º camera that you can mount on any vehicle, our deep learning algorithms recognize objects and put them on a map.
+    Logo: /assets/images/geckomatics.png
+
   - Name: 'Deep tech consultancy in AI & Machine Learning'
     URL: https://people-ai.com/
-    # Icon-Class: fas fa-link
-    # Color: '#ffb142'
-    Text_Color: '#ffffff'
+    Timeframe: July 2020 
+    Description: AI solutions for tier-1 VC backed startups, enterprise, and government. Based in Cambridge, UK, what distinguish us is our thrive to solve deep technical data problems.
     Logo: '/assets/images/pnai_horizontal.png'
 
 
