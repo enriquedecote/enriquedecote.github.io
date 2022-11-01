@@ -40,7 +40,7 @@ links:
   - Name: Google Scholar
     URL: https://scholar.google.com.mx/citations?user=GCvqGG4AAAAJ&hl=en
     # Username: 'harshtrivedi'
-    Color: '#ff0000'
+    Color: '#ee9b00'
     # Text_Color: '#000000'
     Icon-Class: fab fa-scholar
 
@@ -253,6 +253,13 @@ ventures:
     # Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2865936/settings_images/VJhRPJhR2GlxLeftpywl_hypergrowth_logo_full_black_transparent.png
     Logo: /assets/images/geckomatics.png
 
+  - Name: 'Blockchain and AI venture builder'
+    URL: https://www.darkmatterventures.io/
+    # Icon-Class: fas fa-link
+    # Color: '#ffb142'
+    # Text_Color: '#ffffff'
+    Logo: /assets/images/dmv.svg
+
   - Name: Art marketplace
     URL: https://www.atelierdao.xyz/
     # Icon-Class: https://www.atelierdao.xyz/images/Atelier_logo.svg
@@ -267,12 +274,6 @@ ventures:
     Text_Color: '#ffffff'
     Logo: '/assets/images/pnai_horizontal.png'
 
-  - Name: 'Blockchain and AI venture builder'
-    URL: https://www.darkmatterventures.io/
-    # Icon-Class: fas fa-link
-    # Color: '#ffb142'
-    # Text_Color: '#ffffff'
-    Logo: /assets/images/dmv.svg
 
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'No'
