@@ -248,10 +248,10 @@ ventures:
 
   - Name: Computer vision & AI for public spaces
     URL: https://geckomatics.com/
-    # Color: '#edf2f4'
-    # Text_Color: '#ffffff'
+    Color: '#edf2f4'
+    Text_Color: '#ffffff'
     # Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2865936/settings_images/VJhRPJhR2GlxLeftpywl_hypergrowth_logo_full_black_transparent.png
-    Logo: /assets/images/geckomatics-white.png
+    Logo: /assets/images/geckomatics.png
 
   - Name: 'Blockchain and AI venture builder'
     URL: https://www.darkmatterventures.io/
