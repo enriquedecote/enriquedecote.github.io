@@ -239,19 +239,26 @@ links:
     Text_Color: '#ffffff'
 
 ventures:
-  - Name: Art marketplace
-    URL: https://www.atelierdao.xyz/
-    # Icon-Class: https://www.atelierdao.xyz/images/Atelier_logo.svg
-    # Color: '#ffb142'
-    Text_Color: '#ffffff'
-    Logo: https://www.atelierdao.xyz/images/Atelier_logo.svg
-
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
     # Color: '#ffb142'
     Text_Color: '#ffffff'
     # Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2865936/settings_images/VJhRPJhR2GlxLeftpywl_hypergrowth_logo_full_black_transparent.png
     Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2151226666/settings_images/jRnhPeEVTSeGsEfZie8z_hypergrowth-logo-white.svg.png
+
+  - Name: Computer vision & AI for public spaces
+    URL: https://geckomatics.com/
+    Color: '#001d3d'
+    # Text_Color: '#ffffff'
+    # Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2865936/settings_images/VJhRPJhR2GlxLeftpywl_hypergrowth_logo_full_black_transparent.png
+    Logo: /assets/images/geckomatics.png
+
+  - Name: Art marketplace
+    URL: https://www.atelierdao.xyz/
+    # Icon-Class: https://www.atelierdao.xyz/images/Atelier_logo.svg
+    # Color: '#ffb142'
+    Text_Color: '#ffffff'
+    Logo: https://www.atelierdao.xyz/images/Atelier_logo.svg
   
   - Name: 'Deep tech consultancy in AI & Machine Learning'
     URL: https://people-ai.com/
