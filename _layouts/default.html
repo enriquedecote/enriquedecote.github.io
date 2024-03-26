@@ -46,6 +46,16 @@ layout: compress
                          </ol>    
                     <!-- </div> -->
                 </span>
+                <span>
+                    <h2 class="text-2xl font-semibold break-words inline-flex mt-3 mb-4 mx-auto text-center 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center">Past Experience</h2>
+                    <!-- <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 my-7"> -->
+                        <ol class="relative border-l border-gray-200 dark:border-gray-700 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full text-left centre">
+                            {% unless site.experience == "" %}
+                            {% include experience.html %}
+                            {% endunless %}
+                         </ol>    
+                    <!-- </div> -->
+                </span>
             </span>
             {% if site.footer and site.footer == 'Yes' or site.footer == 'yes' or site.footer == 'y' or site.footer == 'Y' %}
                 <div
