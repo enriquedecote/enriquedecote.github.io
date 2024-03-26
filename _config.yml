@@ -244,6 +244,7 @@ ventures:
     Timeframe: Feb 2024
     Description: We specialise in single cell omics data analysis leading to insights & novel target discoveries
     Logo: /assets/images/cellclar.svg
+    Color: white
 
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
@@ -283,6 +284,7 @@ experience:
     Role: Director of ML
     Description:  An ML startup with the mission of empowering people in business to make better decisions. Backed by more than four years of practical, award-winning artificial intelligence (AI) and machine learning (ML) research, Secondmind is closing the gap between people and AI with easy-to-use and understand ML technology, designed to help businesses better predict, plan, compete and manage risk in an increasingly uncertain world. The company has been developing Secondmind for four years under the name PROWLER.io.
     Logo: /assets/images/Secondmind.webp
+    Color: white  
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'No'
 
