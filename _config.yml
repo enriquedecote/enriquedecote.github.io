@@ -245,12 +245,14 @@ ventures:
     Description: We specialise in single cell omics data analysis leading to insights & novel target discoveries
     Logo: /assets/images/cellclar.svg
     Color: white
+    Role: Vice president of AI
 
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
     Timeframe: Nov 2022
     Description: Data-driven growth acceleration network and services connecting the tech industry (startups, scale-ups, enterprise and government) with people, processes and data. We design and implement processes based on proven frameworks. Now we're using AI and machine learning to guide these processes and leverage these technologies in key growth areas such as marketing and decision-support systems.
     Logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2151226666/settings_images/jRnhPeEVTSeGsEfZie8z_hypergrowth-logo-white.svg.png
+    Role: Co-founder
 
   # - Name: Art marketplace
   #   URL: https://www.atelierdao.xyz/
@@ -270,12 +272,14 @@ ventures:
     Timeframe: July 2021 - Oct 2022
     Description: An AI computer vision startup founded to solve the scarcity of high quality, recent geographic information. Geckomatics has redesigned how outdoor mobile mapping is done. Using a 360º camera that you can mount on any vehicle, our deep learning algorithms recognize objects and put them on a map.
     Logo: /assets/images/geckomatics.png
+    Role: CTO
 
   - Name: 'Deep tech consultancy in AI & Machine Learning'
     URL: https://people-ai.com/
     Timeframe: July 2020 
     Description: AI solutions for tier-1 VC backed startups, enterprise, and government. Based in Cambridge, UK, what distinguish us is our thrive to solve deep technical data problems.
     Logo: '/assets/images/pnai_horizontal.png'
+    Role: Founder
 
 experience:
   - Name: Secondmind
