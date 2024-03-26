@@ -240,10 +240,10 @@ links:
 
 ventures:
   - Name: Single cell biotechnology
-    URL: https://www.cellclar.com//
+    URL: https://www.cellclar.com/
     Timeframe: Feb 2024
     Description: We specialise in single cell omics data analysis leading to insights & novel target discoveries
-    Logo: https://assets-global.website-files.com/651c0bca3383b4443ed7093f/652d555aa67053ad49d1d635_Logotype(1).svg
+    Logo: /assets/images/cellclar.svg
 
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
@@ -276,7 +276,13 @@ ventures:
     Description: AI solutions for tier-1 VC backed startups, enterprise, and government. Based in Cambridge, UK, what distinguish us is our thrive to solve deep technical data problems.
     Logo: '/assets/images/pnai_horizontal.png'
 
-
+experience:
+  - Name: Secondmind
+    URL: https://www.secondmind.ai/
+    Timeframe: Oct 2016 - Jan 2020
+    Role: Director of ML
+    Description:  An ML startup with the mission of empowering people in business to make better decisions. Backed by more than four years of practical, award-winning artificial intelligence (AI) and machine learning (ML) research, Secondmind is closing the gap between people and AI with easy-to-use and understand ML technology, designed to help businesses better predict, plan, compete and manage risk in an increasingly uncertain world. The company has been developing Secondmind for four years under the name PROWLER.io.
+    Logo: /assets/images/Secondmind.webp
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'No'
 
