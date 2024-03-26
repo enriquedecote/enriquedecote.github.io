@@ -239,6 +239,12 @@ links:
     Text_Color: '#ffffff'
 
 ventures:
+  - Name: Single cell biotechnology
+    URL: https://www.cellclar.com//
+    Timeframe: Feb 2024
+    Description: We specialise in single cell omics data analysis leading to insights & novel target discoveries
+    Logo: https://assets-global.website-files.com/651c0bca3383b4443ed7093f/652d555aa67053ad49d1d635_Logotype(1).svg
+
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
     Timeframe: Nov 2022
@@ -251,16 +257,16 @@ ventures:
   #   Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   #   Logo: https://www.atelierdao.xyz/images/Atelier_logo.svg
 
-  - Name: 'Blockchain and AI venture builder'
-    URL: https://www.darkmatterventures.io/
-    Timeframe: Jan 2022
-    Description: Blockchain and AI venture builder. An R&D lab building products in the intersection between AI and blockchain technologies.
-    Logo: /assets/images/dmv.svg
+  # - Name: 'Blockchain and AI venture builder'
+  #   URL: https://www.darkmatterventures.io/
+  #   Timeframe: Jan 2022
+  #   Description: Blockchain and AI venture builder. An R&D lab building products in the intersection between AI and blockchain technologies.
+  #   Logo: /assets/images/dmv.svg
   
   - Name: Computer vision & AI for public spaces
     URL: https://geckomatics.com/
     Color: '#edf2f4'
-    Timeframe: July 2021 
+    Timeframe: July 2021 - Oct 2022
     Description: An AI computer vision startup founded to solve the scarcity of high quality, recent geographic information. Geckomatics has redesigned how outdoor mobile mapping is done. Using a 360º camera that you can mount on any vehicle, our deep learning algorithms recognize objects and put them on a map.
     Logo: /assets/images/geckomatics.png
 
