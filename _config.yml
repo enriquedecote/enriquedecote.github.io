@@ -239,13 +239,20 @@ links:
     Text_Color: '#ffffff'
 
 ventures:
+  - Name: Physical AI for collaborative robotics
+    URL: https://mutabletactics.ai/
+    Timeframe: October 2024
+    Description: UK-based deep defense-tech startup, backed by EF, specializing in the orchestration layer for defense autonomous robotics.  Our flagship product is an early warning UAV detection system utilizing configurable systems of pan-tilt robotic cameras. We are currently collaborating with Ukrainian hardware manufacturers to integrate this system with their actuators to neutralize UAV threats. Our research lab is constantly pushing the boundaries of innovation, enabling us to provide cutting-edge solutions for frontline challenges. For instance, we are currently exploring event-based computing as a new computer vision paradigm that excels in capturing fast-moving objects.
+    Logo: /assets/images/MT_white_text.png
+    Role: Co-founder & CTO
+
   - Name: Single cell biotechnology
     URL: https://www.cellclar.com/
     Timeframe: Feb 2024
     Description: We specialise in single cell omics data analysis leading to insights & novel target discoveries
     Logo: /assets/images/cellclar.svg
     Color: white
-    Role: Vice president of AI
+    Role: Advisor of AI strasetgy
 
   - Name: AI marketing and growth services
     URL: https://www.hypergrowth.io/
